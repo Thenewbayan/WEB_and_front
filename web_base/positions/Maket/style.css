@@ -24,50 +24,114 @@ body {
     scroll-behavior: smooth;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
 .container {
-    border: 1px solid #000;
     max-width: 1320px;
 }
 
-.header {
-    border: 1px solid #0150E9;
-    max-width: 1289px;
-    max-height: 114px;
-    display: flex;
-}
-
-.logo {
-    margin-top: 40px;
-}
-
-.navigation {
-
-    border: 1px solid #20C905;
-    font-family: 'Gilroy-Semibold';
+.header a {
+    font-family: Gilroy-SemiBold;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    color: #000;
 }
 
-.navigation a {
-    color: #000;
+.header {
+    margin: 40px auto 84px auto;
+    display: flex;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: start;
+}
+
+
+
+.navigation {
+    max-width: 532px;
+    max-height: 17px;
+    display: flex;
+    justify-content: space-around;
+    gap: 48px;
+}
+
+.main {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title {
     color: #000;
-    font-family: 'Gilroy-Bold';
+    font-family: Gilroy-Bold;
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.text_info {
+.textInfo {
     color: #888;
-    font-family: 'Gilroy-Medium';
+    font-family: Gilroy-Medium;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
+
+.btnPanel {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    margin-top: 37px;
+}
+
+.start__btn {
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    font-family: Gilroy-Bold;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mainContent__rightSide {}
+
+.main_img {
+    width: 545px;
+    height: 345px;
+    margin-right: 64px;
+}
+
+
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    margin:97px auto 96px auto;
+}
+
