@@ -2,73 +2,132 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css" />
+	<title>Document</title>
 </head>
 
 <body>
-    <div class="header container">
-        <!--header with menu and logo-->
-        <div class="logo"><img src="../Maket/sourses/Logo.svg" alt="Logo image"></div>
-        <div class="navigation"> 
-            <!-- navi bar-->
-            <a style="color:#F25822" href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Services</a>
-            <a href="#">Features</a>
-            <a href="#">Team</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
-        </div>
+	<header class="header container">
+		<!--header with menu and logo-->
+		<img src="./sourses/Logo.svg" alt="Logo image" />
+		<nav class="navigation">
+			<!-- navi bar-->
+			<a class="active" href="#">Home</a>
+			<a href="#">About Us</a>
+			<a href="#">Services</a>
+			<a href="#">Features</a>
+			<a href="#">Team</a>
+			<a href="#">Blog</a>
+			<a href="#">Contact</a>
+		</nav>
+	</header>
 
-    </div>
+	<div class="main container">
+		<!-- main content from 2 parts (info and img)-->
+		<div class="mainContent__leftSide">
+			<!-- left from title, par, buttons bar-->
+			<h1 class="title">SEO & Digital Marketing For Your Website.</h1>
+			<p class="textInfo">
+				Provide all kind of seo services and help to improve seo ranking. Globally incubate standards.
+			</p>
+			<div class="btnPanel">
+				<button class="start__btn">Start Now</button>
+				<p>Watch Video</p>
+			</div>
+		</div>
+		<!-- main image -->
+		<img src="./sourses/main.svg" alt="Main pictures" />
+	</div>
 
-    <div class="main container">
-        <!-- main content from 2 parts (info and img)-->
-        <div class="mainContent__leftSide"> 
-            <!-- left from title, par, buttons bar-->
-            <div class="title">
-                <h1>SEO & Digital Marketing For Your Website.</h1>
+	<div class="first__page__lower">
+		<!--footer with links-->
+		<div class="links container">
+			<a href="#"><img src="./sourses/1.png" alt="PartnersCompany" /></a>
+			<a href="#"><img src="./sourses/3.png" alt="PartnersCompany" /></a>
+			<a href="#"><img src="./sourses/4.png" alt="PartnersCompany" /></a>
+			<a href="#"><img src="./sourses/5.png" alt="PartnersCompany" /></a>
+			<a href="#"><img src="./sourses/6.png" alt="PartnersCompany" /></a>
+			<a href="#"><img src="./sourses/1.png" alt="PartnersCompany" /></a>
+		</div>
+	</div>
 
-            </div>
+	<div class="section">
+		<!-- second page -->
+		<div class="scndPageUpper container">
+			<!-- cards with products -->
+			<div class="gridContainer">
+				<div class="item">
+					<img src="../Maket/sourses/icon_left.svg" alt="icon">
+					<h3>Grow Your Business</h3>
+					<p>Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
+					<button>Read More...</button>
+				</div>
+				<div class="item itemCentr">
+					<img src="../Maket/sourses/icon_centr.svg" alt="icon">
+					<h3>Get Quality Ieads</h3>
+					<p>Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
+					<button>Read More...</button>
+				</div>
+				<div class="item">
+					<img src="../Maket/sourses/icon_right.svg" alt="icon">
+					<h3>Drive More Sales</h3>
+					<p>Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
+					<button>Read More...</button>
+				</div>
+			</div>
+		</div>
 
-            <div class="textInfo">
-                <p>Provide all kind of seo services and help to improve seo ranking. Globally incubate standards.</p>
-
-            </div>
-
-            <div class="btnPanel">
-                <button class="start__btn">Start Now</button>
-                <p>Watch Video</p>
-
-            </div>
-
-        </div>
-
-        <div class="mainContent__rightSide">
-            <!-- main image -->
-            <div class="main_img"><img src="../Maket/sourses/main.svg" alt="Main pictures"></div>
-
-        </div>
-
-    </div>
-
-    <div class="footer container">
-        <!--footer with links-->
-        <div class="links">
-            <a href="#"><img src="../Maket/sourses/1.png" alt="PartnersCompany"></a>
-            <a href="#"><img src="../Maket/sourses/3.png" alt="PartnersCompany"></a>
-            <a href="#"><img src="../Maket/sourses/4.png" alt="PartnersCompany"></a>
-            <a href="#"><img src="../Maket/sourses/5.png" alt="PartnersCompany"></a>
-            <a href="#"><img src="../Maket/sourses/6.png" alt="PartnersCompany"></a>
-            <a href="#"><img src="../Maket/sourses/1.png" alt="PartnersCompany"></a>
-        </div>
+		<div class="scndPageMain container">
+			<!-- main content of sec. page -->
+			<div class="scndPageMainInfo">
+				<!-- title and info text -->
+				<div class="scndPageTitle">
+					<h3>Why You Should Choose Us.</h3>
+					<div class="scndPageInfoText">
+						<p>Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate
+							e-business applications through revolutionary catalysts.</p>
+					</div>
+				</div>
+			</div>
+			<div class="scndPageMainGridCont">
+				<!-- cards with services -->
+				<!-- create cards  -->
+				<div class="scndItem">
+					<img src="../Maket/sourses/scnd_main_left.svg" alt="picture">
+					<h3>Keyword Research</h3>
+					<p>Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.
+					</p>
+					<button>Learn More > </button>
 
 
-    </div>       
-   
+				</div>
+				<div class="scndItem scndItemCentr">
+					<img src="../Maket/sourses/scnd_main_centr.svg" alt="picture">
+					<h3>Seo Optimazadion</h3>
+					<p>Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.
+					</p>
+					<button>Learn More > </button>
+
+				</div>
+				<div class="scndItem">
+					<img src="../Maket/sourses/scnd_main_right.svg" alt="picture">
+					<h3>Social Marketing</h3>
+					<p>Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.
+					</p>
+					<button>Learn More > </button>
+
+				</div>
+
+
+
+			</div>
+
+		</div>
+
+
+	</div>
 </body>
 
 </html>

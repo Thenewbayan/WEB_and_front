@@ -1,137 +1,277 @@
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
 }
 
 @font-face {
-    font-family: 'Gilroy-Semibold';
-    src: url(../Maket/fonts/gilroy-semibold.ttf);
+	font-family: 'Gilroy-Semibold';
+	src: url(./fonts/gilroy-semibold.ttf);
 }
 
 @font-face {
-    font-family: 'Gilroy-Bold';
-    src: url(../Maket/fonts/gilroy-bold.ttf);
+	font-family: 'Gilroy-Bold';
+	src: url(./fonts/gilroy-bold.ttf);
 }
 
 @font-face {
-    font-family: 'Gilroy-Medium';
-    src: url(../Maket/fonts/gilroy-medium.ttf);
+	font-family: 'Gilroy-Medium';
+	src: url(./fonts/gilroy-medium.ttf);
 }
 
 body {
-    background: #FFF;
-    scroll-behavior: smooth;
+	background: #fff;
+	scroll-behavior: smooth;
 }
 
 img {
-    display: block;
-    max-width: 100%;
+	display: block;
+	max-width: 100%;
 }
 
 .container {
-    max-width: 1320px;
-}
-
-.header a {
-    font-family: Gilroy-SemiBold;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    color: #000;
+	max-width: 1170px;
+	margin: 0 auto;
 }
 
 .header {
-    margin: 40px auto 84px auto;
-    display: flex;
-    
+	margin: 40px auto 84px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
-
-.logo {
-    display: flex;
-    justify-content: start;
-}
-
-
 
 .navigation {
-    max-width: 532px;
-    max-height: 17px;
-    display: flex;
-    justify-content: space-around;
-    gap: 48px;
+	width: 533px;
+	max-height: 17px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navigation a {
+	font-family: Gilroy-Medium;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	color: #000;
+}
+
+.navigation .active {
+	font-family: Gilroy-Semibold;
+	color: #f25822;
 }
 
 .main {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 162px;
+}
+
+.mainContent__leftSide {
+	max-width: 522px;
 }
 
 .title {
-    color: #000;
-    font-family: Gilroy-Bold;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+	color: #000;
+	font-family: Gilroy-Bold;
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 17px;
 }
 
 .textInfo {
-    color: #888;
-    font-family: Gilroy-Medium;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+	color: #888;
+	font-family: Gilroy-Medium;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 37px;
+	max-width: 466px;
 }
 
 .btnPanel {
-    color: #AAA;
-    font-family: Gilroy-Bold;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    display: flex;
-    margin-top: 37px;
+	color: #aaa;
+	font-family: Gilroy-Bold;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	display: flex;
+	gap: 72px;
+	align-items: center;
 }
 
 .start__btn {
-    width: 140px;
-    height: 50px;
-    flex-shrink: 0;
-    border-radius: 50px;
-    background: #F25822;
-    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
-    font-family: Gilroy-Bold;
-    color: #FFF;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+	padding: 15px 35px;
+	border-radius: 50px;
+	background: #f25822;
+	box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+	font-family: Gilroy-Bold;
+	color: #fff;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	border: none;
+	cursor: pointer;
 }
-
-.mainContent__rightSide {}
-
-.main_img {
-    width: 545px;
-    height: 345px;
-    margin-right: 64px;
-}
-
-
-.footer {
-    margin-left: auto;
-    margin-right: auto;
-}
-
 
 .links {
-    display: flex;
-    justify-content: space-between;
-    gap: 48px;
-    margin:97px auto 96px auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 97px 0;
 }
 
+.scndPageUpper {
+	margin-top: 80px;
+}
+
+.gridContainer {
+	display: grid;
+	grid-template-columns: 380px 380px 380px;
+	gap: 90px
+}
+
+.gridContainer h3 {
+	color: #000;
+	font-family: Gilroy-Bold;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 17px;
+}
+
+.gridContainer p {
+	color: #666;
+	font-family: Gilroy-Regular;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	margin-bottom: 25px;
+
+}
+
+.item {
+	padding-left: 30px;
+	margin: 100px auto;
+}
+
+.item img {
+	border-radius: 15px;
+	margin-bottom: 25px;
+}
+
+.item button {
+	color: #000;
+	font-family: Gilroy-Bold;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	border: none;
+	margin-bottom: 125px;
+}
+
+.itemCentr {
+	box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06)
+}
+
+.scndPageMainInfo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.scndPageTitle h3 {
+	color: #000;
+	font-family: Gilroy-Bold;
+	font-size: 45px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-top: 92px;
+	margin-bottom: 19px;
+}
+
+.scndPageInfoText {
+	color: #666;
+	text-align: center;
+	font-family: Gilroy-Regular;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	max-width: 682px;
+	margin-bottom: 54px;
+
+}
+
+.scndPageMainGridCont {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	gap: 30px
+}
+
+.scndItem {
+	color: #000;
+	font-family: Gilroy-Bold;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+
+}
+
+.scndItem img {
+	width: 385px;
+	height: 289px;
+
+}
+
+.scndItem p {
+	color: #AAA;
+	text-align: center;
+	font-family: Gilroy-Regular;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	margin-top: 22px;
+	margin-bottom: 39px;
+}
+
+.scndItem button {
+	width: 150px;
+	height: 50px;
+	flex-shrink: 0;
+	background-color: #F25822;
+	color: #FFF;
+	text-align: center;
+	font-family: Gilroy-Bold;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	border-radius: 50px;
+	margin-bottom: 50px;
+
+
+
+}
+
+.scndItemCentr {
+	box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
